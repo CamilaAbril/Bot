@@ -1,0 +1,85 @@
+{
+    "intents": [
+      {
+        "tag": "Saludos", 
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Como estás?",
+          "Hay alguien ahí?",
+          "Hello",
+          "Buen día"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hola, gracias por tu visita",
+          "Hola, que puedo hacer por vos?",
+          "Hola, como puedo ayudarte?"
+        ]
+      },
+      {
+        "tag": "Adiós",
+        "patterns": ["Bye", "Te veo despues", "Chauchis", "Chau"],
+        "responses": [
+          "Nos vemos luego, gracias por tu visita",
+          "Que tenga un lindo día",
+          "Chau"
+        ]
+      },
+      {
+        "tag": "Gracias",
+        "patterns": ["Thanks", "Gracias", "muchas gracias", "Te agradezco", "Muy amable"],
+        "responses": ["Feliz de ayudarte", "De nada", "Gracias a vos"]
+      },
+      {
+        "tag": "Elementos",
+        "patterns": [
+          "Qué articulos tienes?",
+          "Qué elementos tienes?",
+          "Que tienes?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "Tengo café y té"
+        ]
+      },
+      {
+        "tag": "pagos",
+        "patterns": [
+          "acepta tarjeta de crédito?",
+          "acepta Mastercard?",
+          "puedo pagar con mercado pago?",
+          "acepta mercadopago??"
+        ],
+        "responses": [
+          "Sí, acepto tarjeta de crédito, débito, mercado pago y ualá",
+          "Si, acepto"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "cuanto tarda el envio?",
+          "Cuanto tiempo tarda el envio?",
+          "En cuanto llega con envio?"
+        ],
+        "responses": [
+          "La entrega dar de 2 a 4 días",
+          "El envio tarda de 2 a 4 días"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Cuentame un chiste",
+          "Decime un chiste",
+          "Dime un chiste",
+          "contame un chiste"
+        ],
+        "responses": [
+          "Habia una vez un camion que transportaba choclo, un día dobló y chocló",
+          "Para qué va una caja al gym? Para hacerse caja fuerte."
+        ]
+      }
+    ]
+  }
